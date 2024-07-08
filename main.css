@@ -61,7 +61,9 @@ font-size: 60px;
     margin-bottom: 15px;
 }
 
-.wrapper ol{list-style-position: inside;}
+.wrapper ol{list-style-position: inside;
+text-align: left;
+text-indent: 250px;}
 
 .wrapper .lastText{
     margin-bottom: 35px;

@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+Body{
+    background-color: #ccc;
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.oswald-title {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.wrapper{
+    max-width: 960px;
+    background-color: #fff;
+    margin: 0auto;
+    padding: 20px;
+    /*text-align: center;*/
+}
+
+.wrapper h1{
+    line-height: 150%;
+font-size: 60px;
+}
+
+.imgArticle{
+    width: 100%;
+
+}
+
+.wrapper a{
+    color: #fff;
+    background-color: #555;
+    padding: 35px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.wrapper a:hover{
+    color: #555;
+    background-color: #fff;
+}
+
+.wrapper p{
+    margin-bottom: 15px;
+}
+
+.wrapper ol{list-style-position: inside;}
+
+.wrapper .lastText{
+    margin-bottom: 35px;
+}
+
+.imgBtn {
+    margin-right: 20px;
+    height: 18px;
+}
